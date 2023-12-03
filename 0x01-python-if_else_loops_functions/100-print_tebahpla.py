@@ -3,4 +3,4 @@ for i in range(122, 96, -1):
     if i % 2 == 0:
         print("{:c}".format(i).lower(), end="")
     else:
-         print("{:c}".format(i).upper(), end="")
+        print("{:c}".format(i).upper(), end="")
