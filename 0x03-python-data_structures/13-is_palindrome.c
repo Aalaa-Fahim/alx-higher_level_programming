@@ -18,7 +18,7 @@ return (is_palind(head, *head));
  * @end: the end of the list
  * Return: 0 if not a palindrome, otherwise 1
  */
-int is_palind(listint_t **head, (listint_t *end)
+int is_palind(listint_t **head, listint_t *end)
 {
 if (end == NULL)
 	return (1);
