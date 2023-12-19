@@ -7,7 +7,6 @@ class Square:
 
     def __init__(self, size=0, position=(0, 0)):
         """Method to initialize a new square.
-
         Args:
             size: the length of a side of the square.
             position: the position of the new square
@@ -24,7 +23,7 @@ class Square:
     def size(self, value):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
-        if value < 0:
+        elif value < 0:
             raise ValueError("size must be >= 0")
         self.__size = value
 
