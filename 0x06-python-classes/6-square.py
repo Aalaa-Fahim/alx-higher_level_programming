@@ -8,8 +8,8 @@ class Square:
     def __init__(self, size=0, position=(0, 0)):
         """Method to initialize a new square.
         Args:
-            size: the length of a side of the square.
-            position: the position of the new square
+            size (int): the length of a side of the square.
+            position (int, int): the position of the new square
         """
         self.size = size
         self.position = position
@@ -38,7 +38,7 @@ class Square:
                 len(value) != 2 or
                 not all(isinstance(num, int) for num in value) or
                 not all(num >= 0 for num in value)):
-           raise TypeError("position must be a tuple of 2 positive integers")
+            raise TypeError("position must be a tuple of 2 positive integers")
         self.__position = value
 
     def area(self):
