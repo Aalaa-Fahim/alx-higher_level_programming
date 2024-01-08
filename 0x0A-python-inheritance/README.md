@@ -1,0 +1,1 @@
+Read inheritance in Python
