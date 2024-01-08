@@ -7,15 +7,15 @@ class Rectangle(BaseGeometry):
     """A Rectangle subclass"""
     def __init__(self, width, height):
         """A constructor"""
-        self.__width = width
-        self.__height = height
         self.integer_validator("width", width)
         self.integer_validator("height", height)
+        self.__width = width
+        self.__height = height
 
     def area(self):
         """A method to compute the area"""
         return self.__width * self.__height
 
-    def str():
+    def __str__(self):
         """A method to represent string"""
         return "[Rectangle] " + str(self.__width) + "/" + str(self.__height)
