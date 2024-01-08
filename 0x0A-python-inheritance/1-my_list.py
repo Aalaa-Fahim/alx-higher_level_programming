@@ -1,11 +1,9 @@
 #!usr/bin/python3
+"""A module to show inheritance"""
 
-def print_sorted(self):
-
-class list
-    """A list class"""
-    pass
 
 class MyList(list):
     """An inherited class"""
-    pass
+    def print_sorted(self):
+        """A method to sort integers"""
+        print(sorted(self))
