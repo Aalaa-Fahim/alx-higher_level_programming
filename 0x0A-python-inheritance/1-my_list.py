@@ -1,5 +1,5 @@
 #!usr/bin/python3
-"""A module to show inheritance"""
+"""module for MyList class."""
 
 
 class MyList(list):
