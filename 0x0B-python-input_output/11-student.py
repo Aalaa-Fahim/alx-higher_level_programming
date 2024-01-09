@@ -2,7 +2,7 @@
 """module for a class Student"""
 
 
-class Student:
+class student:
     """defines a student class"""
     def __init__(self, first_name, last_name, age):
         """A constructor"""
@@ -28,4 +28,4 @@ class Student:
         """A method that replaces all attributes of the Student instance"""
         for key, value in json.items():
             if key in self.__dict__:
-                self..__dict__[key] = value
+                self.__dict__[key] = value
