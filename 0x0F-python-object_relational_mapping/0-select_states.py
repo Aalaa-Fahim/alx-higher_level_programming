@@ -18,7 +18,6 @@ def list_states(username, password, database):
     rows = cursor.fetchall()
     for row in rows:
         print(row)
-    cursor.close()
     conn.close()
 
 
