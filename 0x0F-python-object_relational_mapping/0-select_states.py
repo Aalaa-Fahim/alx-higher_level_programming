@@ -7,10 +7,10 @@ import MySQLdb
 def list_states(username, password, database):
     """ lists all states sorted by states.id """
     conn = MySQLdb.connect(host='localhost',
+                           port=3306,
                            user=username,
                            passwd=password,
-                           db=database,
-                           port=3306)
+                           db=database)
     cursor = conn.cursor()
     cursor.execute("SELECT * FROM states ORDER BY id ASC")
     rows = cursor.fetchall()
