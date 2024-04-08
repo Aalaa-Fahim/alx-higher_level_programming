@@ -1,4 +1,4 @@
-#Getting Started with JavaScript
+# Getting Started with JavaScript
 JavaScript is amazing because it is a versatile and powerful programming language that can be used for both client-side and server-side development. It is widely adopted, has a large and active community, and offers a wide range of frameworks and libraries for building diverse applications.
 
 ## JavaScript Practice Concepts
