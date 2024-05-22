@@ -60,4 +60,3 @@ fs.writeFile('path/to/file.json', JSON.stringify(data, null, 2), (err) => {
 ## Conclusion
 
 Web scraping with JavaScript involves extracting data from websites and processing it according to your needs. By mastering JSON manipulation, fetching data from APIs, and managing files with Node.js, you can build powerful web scraping tools and applications.
-```
